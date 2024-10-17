@@ -12,7 +12,7 @@ Summary:        Java-based codings helper classes for Joni and JRuby
 
 
 License:        MIT
-URL:            http://github.com/jruby/%{name}
+URL:            https://github.com/jruby/%{name}
 Source0:        https://github.com/jruby/jcodings/tarball/%{version}/jruby-%{name}-%{version}-0-g%{commit_hash}.tar.gz
 
 BuildArch:      noarch
