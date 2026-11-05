@@ -12,6 +12,9 @@ URL:            https://github.com/jruby/%{name}
 Source0:        https://github.com/jruby/jcodings/archive/refs/tags/jcodings-%{version}.tar.gz
 
 BuildArch:      noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption(install):	--file-name %{name}
 %description
